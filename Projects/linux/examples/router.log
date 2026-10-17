@@ -1,0 +1,301 @@
+# FABRICATED TEST DATA - not real network activity
+Oct 13 09:00:11 test-router httpd[7528]: admin login failed from 198.51.100.72 (user=admin)
+Oct 13 09:00:17 test-router kernel[1269]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.114 DST=198.51.100.54 PROTO=TCP SPT=44944 DPT=443
+Oct 13 09:00:23 test-router kernel[6316]: FW DROP IN=eth0 OUT= SRC=203.0.113.63 DST=203.0.113.10 PROTO=TCP SPT=11732 DPT=22 FLAGS=SYN
+Oct 13 09:00:25 test-router ntpd[3698]: synchronized to 198.51.100.177, stratum 3
+Oct 13 09:00:32 test-router httpd[625]: admin login failed from 192.0.2.59 (user=admin)
+Oct 13 09:00:41 test-router kernel[5255]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.36 DST=192.0.2.234 PROTO=TCP SPT=62818 DPT=53
+Oct 13 09:00:43 test-router dnsmasq-dhcp[2387]: DHCPACK(br0) 192.168.1.56 8e:4f:6e:ac:34:2f
+Oct 13 09:00:45 test-router dnsmasq-dhcp[9660]: DHCPREQUEST(br0) 192.168.1.169 eb:3f:c1:28:96:b9
+Oct 13 09:00:48 test-router kernel[871]: FW DROP IN=eth0 OUT= SRC=192.0.2.131 DST=203.0.113.10 PROTO=TCP SPT=33367 DPT=80 FLAGS=SYN
+Oct 13 09:00:59 test-router kernel[9871]: FW DROP IN=eth0 OUT= SRC=192.0.2.203 DST=203.0.113.10 PROTO=TCP SPT=45620 DPT=22 FLAGS=SYN
+Oct 13 09:01:00 test-router kernel[288]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.139 DST=203.0.113.65 PROTO=TCP SPT=64664 DPT=53
+Oct 13 09:01:07 test-router kernel[5673]: FW DROP IN=eth0 OUT= SRC=203.0.113.193 DST=203.0.113.10 PROTO=TCP SPT=18510 DPT=25 FLAGS=SYN
+Oct 13 09:01:07 test-router kernel[4415]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.136 DST=192.0.2.245 PROTO=TCP SPT=48347 DPT=53
+Oct 13 09:01:29 test-router bgpd[4989]: neighbor 192.0.2.9 (AS64502) state change Established -> Idle (Hold Timer Expired)
+Oct 13 09:01:40 test-router dnsmasq-dhcp[2746]: DHCPOFFER(br0) 192.168.1.59 c2:31:b7:b0:87:16
+Oct 13 09:01:45 test-router bgpd[109]: neighbor 192.0.2.9 (AS64502) state change Idle -> Connect
+Oct 13 09:01:50 test-router dnsmasq-dhcp[4023]: DHCPDISCOVER(br0) 192.168.1.112 8e:4f:6e:ac:34:2f
+Oct 13 09:01:50 test-router httpd[8062]: admin login failed from 192.0.2.22 (user=admin)
+Oct 13 09:02:01 test-router pppd[2160]: PPP session timeout, reconnecting
+Oct 13 09:02:01 test-router kernel[7032]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.160 DST=192.0.2.68 PROTO=TCP SPT=35605 DPT=53
+Oct 13 09:02:21 test-router ntpd[3395]: synchronized to 198.51.100.194, stratum 3
+Oct 13 09:02:29 test-router kernel[7497]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.191 DST=203.0.113.96 PROTO=TCP SPT=29735 DPT=53
+Oct 13 09:02:30 test-router kernel[3870]: FW DROP IN=eth0 OUT= SRC=198.51.100.6 DST=203.0.113.10 PROTO=TCP SPT=39579 DPT=23 FLAGS=SYN
+Oct 13 09:02:35 test-router kernel[1204]: FW DROP IN=eth0 OUT= SRC=203.0.113.162 DST=203.0.113.10 PROTO=TCP SPT=4882 DPT=443 FLAGS=SYN
+Oct 13 09:02:49 test-router httpd[3999]: admin login failed from 192.0.2.132 (user=admin)
+Oct 13 09:02:51 test-router dnsmasq-dhcp[4081]: DHCPOFFER(br0) 192.168.1.166 62:23:17:74:94:28
+Oct 13 09:03:00 test-router bgpd[1688]: neighbor 198.51.100.7 (AS64500) state change Established -> Idle (Hold Timer Expired)
+Oct 13 09:03:07 test-router kernel[1712]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.125 DST=198.51.100.222 PROTO=TCP SPT=48804 DPT=80
+Oct 13 09:03:07 test-router kernel[4173]: eth3: CRC error
+Oct 13 09:03:08 test-router dnsmasq-dhcp[4663]: DHCPOFFER(br0) 192.168.1.128 6f:77:0d:65:d6:70
+Oct 13 09:03:12 test-router httpd[9116]: admin login failed from 192.0.2.114 (user=admin)
+Oct 13 09:03:13 test-router kernel[1628]: eth1: CRC error
+Oct 13 09:03:28 test-router httpd[8056]: admin login failed from 192.0.2.105 (user=admin)
+Oct 13 09:03:32 test-router httpd[6309]: admin login failed from 192.0.2.43 (user=admin)
+Oct 13 09:03:32 test-router kernel[9205]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.136 DST=198.51.100.109 PROTO=TCP SPT=46675 DPT=53
+Oct 13 09:03:39 test-router dnsmasq-dhcp[1058]: DHCPOFFER(br0) 192.168.1.95 e5:8e:03:51:d8:ae
+Oct 13 09:03:44 test-router dnsmasq-dhcp[9671]: DHCPREQUEST(br0) 192.168.1.34 39:0c:8c:7d:72:47
+Oct 13 09:03:48 test-router ntpd[1031]: synchronized to 198.51.100.136, stratum 1
+Oct 13 09:04:07 test-router kernel[3953]: FW DROP IN=eth0 OUT= SRC=192.0.2.18 DST=203.0.113.10 PROTO=TCP SPT=40020 DPT=80 FLAGS=SYN
+Oct 13 09:04:10 test-router ntpd[9585]: synchronized to 198.51.100.146, stratum 1
+Oct 13 09:04:16 test-router kernel[4372]: eth3: link down
+Oct 13 09:04:17 test-router kernel[2244]: eth1: carrier error
+Oct 13 09:04:24 test-router kernel[9324]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.100 DST=192.0.2.3 PROTO=TCP SPT=31058 DPT=53
+Oct 13 09:04:57 test-router kernel[5818]: FW DROP IN=eth0 OUT= SRC=192.0.2.130 DST=203.0.113.10 PROTO=TCP SPT=18404 DPT=443 FLAGS=SYN
+Oct 13 09:05:10 test-router httpd[2684]: admin login failed from 198.51.100.73 (user=admin)
+Oct 13 09:05:13 test-router dnsmasq-dhcp[9186]: DHCPREQUEST(br0) 192.168.1.176 39:0c:8c:7d:72:47
+Oct 13 09:05:16 test-router kernel[4433]: eth3: frame alignment error
+Oct 13 09:05:16 test-router kernel[3550]: FW DROP IN=eth0 OUT= SRC=203.0.113.40 DST=203.0.113.10 PROTO=TCP SPT=18872 DPT=53 FLAGS=SYN
+Oct 13 09:05:24 test-router kernel[8104]: FW DROP IN=eth0 OUT= SRC=203.0.113.219 DST=203.0.113.10 PROTO=TCP SPT=18324 DPT=23 FLAGS=SYN
+Oct 13 09:05:26 test-router httpd[1612]: admin login success from 192.168.1.33 (user=admin)
+Oct 13 09:05:32 test-router httpd[5564]: admin login failed from 192.0.2.1 (user=admin)
+Oct 13 09:05:40 test-router kernel[9138]: eth1: carrier error
+Oct 13 09:05:48 test-router dnsmasq-dhcp[9038]: DHCPDISCOVER(br0) 192.168.1.39 6f:77:0d:65:d6:70
+Oct 13 09:05:48 test-router kernel[5150]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.161 DST=192.0.2.111 PROTO=TCP SPT=9376 DPT=80
+Oct 13 09:05:51 test-router ntpd[5962]: synchronized to 198.51.100.249, stratum 1
+Oct 13 09:05:52 test-router kernel[2632]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.46 DST=198.51.100.200 PROTO=TCP SPT=37716 DPT=443
+Oct 13 09:06:08 test-router kernel[3000]: FW DROP IN=eth0 OUT= SRC=192.0.2.250 DST=203.0.113.10 PROTO=TCP SPT=53445 DPT=25 FLAGS=SYN
+Oct 13 09:06:21 test-router kernel[6845]: FW DROP IN=eth0 OUT= SRC=203.0.113.237 DST=203.0.113.10 PROTO=TCP SPT=22794 DPT=25 FLAGS=SYN
+Oct 13 09:06:30 test-router httpd[2708]: admin login failed from 192.0.2.69 (user=admin)
+Oct 13 09:06:40 test-router kernel[3369]: FW DROP IN=eth0 OUT= SRC=192.0.2.220 DST=203.0.113.10 PROTO=TCP SPT=31871 DPT=443 FLAGS=SYN
+Oct 13 09:06:50 test-router kernel[3264]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.98 DST=192.0.2.58 PROTO=TCP SPT=2574 DPT=53
+Oct 13 09:06:53 test-router kernel[6648]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.37 DST=198.51.100.90 PROTO=TCP SPT=43064 DPT=53
+Oct 13 09:07:00 test-router httpd[552]: admin login failed from 198.51.100.241 (user=admin)
+Oct 13 09:07:00 test-router pppd[9612]: WAN IP renewed: 203.0.113.10
+Oct 13 09:07:20 test-router kernel[5239]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.47 DST=203.0.113.112 PROTO=TCP SPT=23678 DPT=53
+Oct 13 09:07:24 test-router pppd[6411]: WAN IP renewed: 203.0.113.10
+Oct 13 09:07:37 test-router kernel[8618]: FW DROP IN=eth0 OUT= SRC=192.0.2.182 DST=203.0.113.10 PROTO=TCP SPT=29601 DPT=80 FLAGS=SYN
+Oct 13 09:07:53 test-router dnsmasq-dhcp[1246]: DHCPOFFER(br0) 192.168.1.113 eb:3f:c1:28:96:b9
+Oct 13 09:08:11 test-router ntpd[2141]: synchronized to 198.51.100.160, stratum 2
+Oct 13 09:08:18 test-router kernel[4944]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.99 DST=203.0.113.105 PROTO=TCP SPT=22400 DPT=443
+Oct 13 09:08:23 test-router kernel[2951]: FW DROP IN=eth0 OUT= SRC=203.0.113.241 DST=203.0.113.10 PROTO=TCP SPT=25871 DPT=3389 FLAGS=SYN
+Oct 13 09:08:29 test-router kernel[7143]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.160 DST=192.0.2.78 PROTO=TCP SPT=19827 DPT=80
+Oct 13 09:08:38 test-router kernel[7338]: eth2: link down
+Oct 13 09:08:42 test-router kernel[2880]: FW DROP IN=eth0 OUT= SRC=198.51.100.204 DST=203.0.113.10 PROTO=TCP SPT=60083 DPT=25 FLAGS=SYN
+Oct 13 09:08:48 test-router kernel[3948]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.189 DST=203.0.113.159 PROTO=TCP SPT=22990 DPT=80
+Oct 13 09:08:55 test-router kernel[4111]: FW DROP IN=eth0 OUT= SRC=192.0.2.38 DST=203.0.113.10 PROTO=TCP SPT=2624 DPT=80 FLAGS=SYN
+Oct 13 09:09:20 test-router kernel[6890]: eth0: link down
+Oct 13 09:09:33 test-router dnsmasq-dhcp[4097]: DHCPACK(br0) 192.168.1.146 eb:3f:c1:28:96:b9
+Oct 13 09:09:34 test-router kernel[7065]: eth3: CRC error
+Oct 13 09:09:35 test-router bgpd[8586]: neighbor 192.0.2.9 (AS64502) state change Connect -> OpenSent
+Oct 13 09:09:39 test-router dnsmasq-dhcp[7712]: DHCPDISCOVER(br0) 192.168.1.136 6f:77:0d:65:d6:70
+Oct 13 09:09:45 test-router pppd[5298]: PPP session timeout, reconnecting
+Oct 13 09:10:03 test-router httpd[8370]: admin login success from 192.168.1.176 (user=admin)
+Oct 13 09:10:07 test-router httpd[2707]: admin login success from 192.168.1.134 (user=admin)
+Oct 13 09:10:15 test-router kernel[8640]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.86 DST=192.0.2.216 PROTO=TCP SPT=42813 DPT=443
+Oct 13 09:10:19 test-router kernel[3941]: FW DROP IN=eth0 OUT= SRC=198.51.100.20 DST=203.0.113.10 PROTO=TCP SPT=47786 DPT=53 FLAGS=SYN
+Oct 13 09:10:21 test-router kernel[6375]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.158 DST=192.0.2.36 PROTO=TCP SPT=10908 DPT=80
+Oct 13 09:10:28 test-router kernel[5521]: eth0: carrier error
+Oct 13 09:10:33 test-router kernel[420]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.72 DST=198.51.100.100 PROTO=TCP SPT=60323 DPT=53
+Oct 13 09:10:44 test-router bgpd[196]: neighbor 198.51.100.8 (AS64501) state change Established -> Idle (Peer closed session)
+Oct 13 09:11:01 test-router kernel[9047]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.119 DST=198.51.100.138 PROTO=TCP SPT=50013 DPT=53
+Oct 13 09:11:11 test-router httpd[3695]: admin login success from 192.168.1.144 (user=admin)
+Oct 13 09:11:13 test-router dnsmasq-dhcp[2804]: DHCPACK(br0) 192.168.1.106 eb:3f:c1:28:96:b9
+Oct 13 09:11:24 test-router ntpd[8851]: synchronized to 198.51.100.252, stratum 3
+Oct 13 09:11:24 test-router kernel[7122]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.164 DST=203.0.113.7 PROTO=TCP SPT=6525 DPT=53
+Oct 13 09:11:25 test-router kernel[7549]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.32 DST=198.51.100.98 PROTO=TCP SPT=22477 DPT=80
+Oct 13 09:11:27 test-router bgpd[4658]: neighbor 198.51.100.8 (AS64501) state change Idle -> Connect
+Oct 13 09:11:36 test-router httpd[1441]: admin login failed from 198.51.100.214 (user=admin)
+Oct 13 09:11:40 test-router bgpd[5833]: neighbor 198.51.100.7 (AS64500) state change Idle -> Connect
+Oct 13 09:11:41 test-router kernel[4151]: FW DROP IN=eth0 OUT= SRC=203.0.113.11 DST=203.0.113.10 PROTO=TCP SPT=50453 DPT=80 FLAGS=SYN
+Oct 13 09:11:42 test-router kernel[1974]: FW DROP IN=eth0 OUT= SRC=192.0.2.62 DST=203.0.113.10 PROTO=TCP SPT=9296 DPT=22 FLAGS=SYN
+Oct 13 09:11:47 test-router kernel[2849]: FW DROP IN=eth0 OUT= SRC=203.0.113.66 DST=203.0.113.10 PROTO=TCP SPT=51283 DPT=53 FLAGS=SYN
+Oct 13 09:11:53 test-router ntpd[2783]: synchronized to 198.51.100.184, stratum 1
+Oct 13 09:12:13 test-router kernel[6249]: FW DROP IN=eth0 OUT= SRC=192.0.2.238 DST=203.0.113.10 PROTO=TCP SPT=21468 DPT=23 FLAGS=SYN
+Oct 13 09:12:16 test-router kernel[1769]: eth0: frame alignment error
+Oct 13 09:12:23 test-router kernel[772]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.195 DST=203.0.113.207 PROTO=TCP SPT=8957 DPT=53
+Oct 13 09:12:26 test-router kernel[307]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.114 DST=192.0.2.130 PROTO=TCP SPT=43461 DPT=443
+Oct 13 09:12:37 test-router httpd[6034]: admin login failed from 192.0.2.111 (user=admin)
+Oct 13 09:12:43 test-router httpd[7235]: admin login failed from 203.0.113.40 (user=admin)
+Oct 13 09:12:44 test-router dnsmasq-dhcp[7716]: DHCPREQUEST(br0) 192.168.1.177 62:23:17:74:94:28
+Oct 13 09:12:48 test-router kernel[1519]: eth1: frame alignment error
+Oct 13 09:12:50 test-router kernel[5611]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.138 DST=203.0.113.157 PROTO=TCP SPT=44814 DPT=443
+Oct 13 09:12:50 test-router httpd[3575]: admin login failed from 192.0.2.125 (user=admin)
+Oct 13 09:12:53 test-router kernel[9206]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.91 DST=203.0.113.180 PROTO=TCP SPT=58702 DPT=443
+Oct 13 09:12:53 test-router ntpd[6758]: synchronized to 198.51.100.22, stratum 1
+Oct 13 09:12:57 test-router bgpd[7900]: neighbor 192.0.2.9 (AS64502) state change OpenSent -> OpenConfirm
+Oct 13 09:13:03 test-router dnsmasq-dhcp[3730]: DHCPDISCOVER(br0) 192.168.1.43 8e:4f:6e:ac:34:2f
+Oct 13 09:13:06 test-router kernel[8798]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.189 DST=203.0.113.95 PROTO=TCP SPT=32039 DPT=53
+Oct 13 09:13:09 test-router pppd[5519]: PPP session timeout, reconnecting
+Oct 13 09:13:11 test-router kernel[3255]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.98 DST=198.51.100.60 PROTO=TCP SPT=8931 DPT=53
+Oct 13 09:13:13 test-router bgpd[3133]: neighbor 192.0.2.9 (AS64502) state change OpenConfirm -> Established
+Oct 13 09:13:15 test-router kernel[8695]: eth1: TX timeout error
+Oct 13 09:13:20 test-router pppd[4953]: WAN IP renewed: 203.0.113.10
+Oct 13 09:13:22 test-router kernel[4594]: FW DROP IN=eth0 OUT= SRC=192.0.2.182 DST=203.0.113.10 PROTO=TCP SPT=36029 DPT=443 FLAGS=SYN
+Oct 13 09:13:22 test-router kernel[8142]: FW DROP IN=eth0 OUT= SRC=198.51.100.179 DST=203.0.113.10 PROTO=TCP SPT=62895 DPT=443 FLAGS=SYN
+Oct 13 09:13:23 test-router kernel[5682]: FW DROP IN=eth0 OUT= SRC=198.51.100.121 DST=203.0.113.10 PROTO=TCP SPT=32397 DPT=22 FLAGS=SYN
+Oct 13 09:13:24 test-router kernel[6665]: FW DROP IN=eth0 OUT= SRC=198.51.100.30 DST=203.0.113.10 PROTO=TCP SPT=54902 DPT=80 FLAGS=SYN
+Oct 13 09:13:28 test-router dnsmasq-dhcp[9321]: DHCPDISCOVER(br0) 192.168.1.58 6f:77:0d:65:d6:70
+Oct 13 09:13:46 test-router kernel[6918]: FW DROP IN=eth0 OUT= SRC=192.0.2.31 DST=203.0.113.10 PROTO=TCP SPT=37597 DPT=25 FLAGS=SYN
+Oct 13 09:13:51 test-router bgpd[8661]: neighbor 198.51.100.7 (AS64500) state change Connect -> OpenSent
+Oct 13 09:13:54 test-router httpd[9742]: admin login success from 192.168.1.96 (user=admin)
+Oct 13 09:14:22 test-router kernel[1725]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.178 DST=192.0.2.157 PROTO=TCP SPT=63945 DPT=53
+Oct 13 09:14:40 test-router kernel[2673]: FW DROP IN=eth0 OUT= SRC=192.0.2.68 DST=203.0.113.10 PROTO=TCP SPT=44305 DPT=80 FLAGS=SYN
+Oct 13 09:14:41 test-router dnsmasq-dhcp[7481]: DHCPOFFER(br0) 192.168.1.20 eb:3f:c1:28:96:b9
+Oct 13 09:14:48 test-router kernel[7538]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.28 DST=192.0.2.74 PROTO=TCP SPT=47355 DPT=443
+Oct 13 09:14:49 test-router kernel[9763]: FW DROP IN=eth0 OUT= SRC=198.51.100.202 DST=203.0.113.10 PROTO=TCP SPT=52879 DPT=3389 FLAGS=SYN
+Oct 13 09:14:55 test-router ntpd[9022]: synchronized to 198.51.100.109, stratum 1
+Oct 13 09:14:57 test-router kernel[1077]: FW DROP IN=eth0 OUT= SRC=198.51.100.212 DST=203.0.113.10 PROTO=TCP SPT=10345 DPT=80 FLAGS=SYN
+Oct 13 09:14:58 test-router kernel[5082]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.165 DST=198.51.100.113 PROTO=TCP SPT=9173 DPT=443
+Oct 13 09:15:05 test-router ntpd[8190]: synchronized to 198.51.100.129, stratum 3
+Oct 13 09:15:09 test-router kernel[9991]: eth3: link down
+Oct 13 09:15:10 test-router kernel[9719]: FW DROP IN=eth0 OUT= SRC=203.0.113.215 DST=203.0.113.10 PROTO=TCP SPT=57418 DPT=23 FLAGS=SYN
+Oct 13 09:15:28 test-router pppd[4515]: PPP session timeout, reconnecting
+Oct 13 09:15:33 test-router bgpd[7808]: neighbor 198.51.100.7 (AS64500) state change OpenSent -> OpenConfirm
+Oct 13 09:15:38 test-router kernel[8156]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.91 DST=192.0.2.150 PROTO=TCP SPT=29590 DPT=53
+Oct 13 09:15:59 test-router kernel[2734]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.124 DST=198.51.100.83 PROTO=TCP SPT=44941 DPT=80
+Oct 13 09:16:01 test-router kernel[9112]: eth1: carrier error
+Oct 13 09:16:01 test-router kernel[6722]: FW DROP IN=eth0 OUT= SRC=198.51.100.83 DST=203.0.113.10 PROTO=TCP SPT=8621 DPT=25 FLAGS=SYN
+Oct 13 09:16:13 test-router httpd[8989]: admin login failed from 192.0.2.169 (user=admin)
+Oct 13 09:16:17 test-router kernel[8267]: FW DROP IN=eth0 OUT= SRC=203.0.113.93 DST=203.0.113.10 PROTO=TCP SPT=41828 DPT=25 FLAGS=SYN
+Oct 13 09:16:23 test-router bgpd[4475]: neighbor 198.51.100.7 (AS64500) state change OpenConfirm -> Established
+Oct 13 09:16:28 test-router ntpd[8041]: synchronized to 198.51.100.113, stratum 3
+Oct 13 09:16:29 test-router pppd[4020]: PPP session timeout, reconnecting
+Oct 13 09:16:36 test-router kernel[1958]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.23 DST=203.0.113.105 PROTO=TCP SPT=7132 DPT=80
+Oct 13 09:16:40 test-router kernel[4881]: FW DROP IN=eth0 OUT= SRC=192.0.2.128 DST=203.0.113.10 PROTO=TCP SPT=62146 DPT=3389 FLAGS=SYN
+Oct 13 09:16:44 test-router kernel[2469]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.143 DST=198.51.100.63 PROTO=TCP SPT=30959 DPT=53
+Oct 13 09:16:47 test-router ntpd[2336]: synchronized to 198.51.100.131, stratum 3
+Oct 13 09:16:59 test-router kernel[4477]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.126 DST=198.51.100.240 PROTO=TCP SPT=52647 DPT=53
+Oct 13 09:17:09 test-router kernel[2534]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.96 DST=203.0.113.149 PROTO=TCP SPT=44273 DPT=443
+Oct 13 09:17:13 test-router dnsmasq-dhcp[7560]: DHCPREQUEST(br0) 192.168.1.161 eb:3f:c1:28:96:b9
+Oct 13 09:17:29 test-router httpd[9468]: admin login failed from 203.0.113.62 (user=admin)
+Oct 13 09:17:32 test-router httpd[5313]: admin login failed from 198.51.100.12 (user=admin)
+Oct 13 09:17:40 test-router kernel[2592]: eth3: carrier error
+Oct 13 09:17:44 test-router kernel[1744]: FW DROP IN=eth0 OUT= SRC=203.0.113.248 DST=203.0.113.10 PROTO=TCP SPT=39702 DPT=53 FLAGS=SYN
+Oct 13 09:17:57 test-router kernel[6817]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.154 DST=198.51.100.4 PROTO=TCP SPT=48370 DPT=80
+Oct 13 09:18:09 test-router ntpd[4442]: synchronized to 198.51.100.20, stratum 2
+Oct 13 09:18:11 test-router kernel[8842]: eth2: FIFO overrun error
+Oct 13 09:18:14 test-router kernel[3946]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.144 DST=203.0.113.10 PROTO=TCP SPT=41489 DPT=80
+Oct 13 09:18:20 test-router ntpd[1580]: synchronized to 198.51.100.59, stratum 3
+Oct 13 09:18:24 test-router kernel[7369]: FW DROP IN=eth0 OUT= SRC=203.0.113.181 DST=203.0.113.10 PROTO=TCP SPT=58209 DPT=80 FLAGS=SYN
+Oct 13 09:18:25 test-router kernel[4906]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.27 DST=192.0.2.84 PROTO=TCP SPT=53200 DPT=80
+Oct 13 09:18:27 test-router kernel[3050]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.82 DST=203.0.113.106 PROTO=TCP SPT=38112 DPT=53
+Oct 13 09:18:28 test-router kernel[8253]: FW DROP IN=eth0 OUT= SRC=198.51.100.159 DST=203.0.113.10 PROTO=TCP SPT=45793 DPT=443 FLAGS=SYN
+Oct 13 09:18:43 test-router kernel[4283]: FW DROP IN=eth0 OUT= SRC=198.51.100.164 DST=203.0.113.10 PROTO=TCP SPT=17668 DPT=22 FLAGS=SYN
+Oct 13 09:18:50 test-router httpd[4812]: admin login success from 192.168.1.139 (user=admin)
+Oct 13 09:18:56 test-router kernel[5001]: FW DROP IN=eth0 OUT= SRC=198.51.100.242 DST=203.0.113.10 PROTO=TCP SPT=23670 DPT=23 FLAGS=SYN
+Oct 13 09:19:03 test-router kernel[6402]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.84 DST=198.51.100.217 PROTO=TCP SPT=20823 DPT=80
+Oct 13 09:19:14 test-router kernel[4947]: FW DROP IN=eth0 OUT= SRC=198.51.100.147 DST=203.0.113.10 PROTO=TCP SPT=24548 DPT=23 FLAGS=SYN
+Oct 13 09:19:44 test-router kernel[903]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.188 DST=198.51.100.71 PROTO=TCP SPT=1554 DPT=53
+Oct 13 09:19:58 test-router bgpd[3870]: neighbor 198.51.100.8 (AS64501) state change Connect -> OpenSent
+Oct 13 09:20:04 test-router kernel[2340]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.182 DST=192.0.2.159 PROTO=TCP SPT=17449 DPT=53
+Oct 13 09:20:10 test-router httpd[745]: admin login success from 192.168.1.185 (user=admin)
+Oct 13 09:20:12 test-router kernel[4935]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.168 DST=198.51.100.188 PROTO=TCP SPT=9636 DPT=80
+Oct 13 09:20:14 test-router kernel[8797]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.71 DST=192.0.2.202 PROTO=TCP SPT=36374 DPT=443
+Oct 13 09:20:18 test-router kernel[4935]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.62 DST=198.51.100.234 PROTO=TCP SPT=55070 DPT=443
+Oct 13 09:20:27 test-router kernel[3796]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.49 DST=198.51.100.247 PROTO=TCP SPT=5958 DPT=80
+Oct 13 09:20:38 test-router kernel[6092]: eth3: TX timeout error
+Oct 13 09:20:39 test-router kernel[4395]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.87 DST=203.0.113.32 PROTO=TCP SPT=30828 DPT=443
+Oct 13 09:20:44 test-router httpd[3930]: admin login failed from 198.51.100.28 (user=admin)
+Oct 13 09:20:48 test-router kernel[1135]: eth2: link up, 1000 Mbps full duplex
+Oct 13 09:20:54 test-router kernel[2390]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.199 DST=198.51.100.167 PROTO=TCP SPT=27782 DPT=80
+Oct 13 09:20:54 test-router kernel[8907]: FW DROP IN=eth0 OUT= SRC=198.51.100.30 DST=203.0.113.10 PROTO=TCP SPT=7393 DPT=443 FLAGS=SYN
+Oct 13 09:20:55 test-router kernel[6966]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.191 DST=203.0.113.179 PROTO=TCP SPT=63019 DPT=53
+Oct 13 09:21:01 test-router kernel[8117]: eth3: CRC error
+Oct 13 09:21:06 test-router ntpd[6170]: synchronized to 198.51.100.72, stratum 1
+Oct 13 09:21:08 test-router kernel[6118]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.80 DST=198.51.100.26 PROTO=TCP SPT=65310 DPT=53
+Oct 13 09:21:13 test-router pppd[1092]: WAN link established
+Oct 13 09:21:16 test-router kernel[7550]: FW DROP IN=eth0 OUT= SRC=192.0.2.243 DST=203.0.113.10 PROTO=TCP SPT=56600 DPT=25 FLAGS=SYN
+Oct 13 09:21:16 test-router kernel[928]: FW DROP IN=eth0 OUT= SRC=203.0.113.153 DST=203.0.113.10 PROTO=TCP SPT=64665 DPT=80 FLAGS=SYN
+Oct 13 09:21:25 test-router kernel[3494]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.52 DST=203.0.113.53 PROTO=TCP SPT=5520 DPT=53
+Oct 13 09:21:31 test-router bgpd[2517]: neighbor 198.51.100.7 (AS64500) state change Established -> Idle (Peer closed session)
+Oct 13 09:21:40 test-router kernel[2229]: eth2: link up, 1000 Mbps full duplex
+Oct 13 09:21:45 test-router bgpd[522]: neighbor 198.51.100.7 (AS64500) state change Idle -> Connect
+Oct 13 09:21:46 test-router kernel[4447]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.80 DST=203.0.113.83 PROTO=TCP SPT=2058 DPT=80
+Oct 13 09:21:46 test-router bgpd[1141]: neighbor 192.0.2.9 (AS64502) state change Established -> Idle (Hold Timer Expired)
+Oct 13 09:21:50 test-router bgpd[9826]: neighbor 192.0.2.9 (AS64502) state change Idle -> Connect
+Oct 13 09:21:50 test-router dnsmasq-dhcp[7604]: DHCPDISCOVER(br0) 192.168.1.188 8e:4f:6e:ac:34:2f
+Oct 13 09:21:57 test-router kernel[1868]: FW DROP IN=eth0 OUT= SRC=198.51.100.217 DST=203.0.113.10 PROTO=TCP SPT=27344 DPT=22 FLAGS=SYN
+Oct 13 09:22:01 test-router httpd[1423]: admin login success from 192.168.1.38 (user=admin)
+Oct 13 09:22:03 test-router kernel[9690]: FW DROP IN=eth0 OUT= SRC=192.0.2.71 DST=203.0.113.10 PROTO=TCP SPT=41939 DPT=3389 FLAGS=SYN
+Oct 13 09:22:08 test-router kernel[7148]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.172 DST=203.0.113.76 PROTO=TCP SPT=30758 DPT=53
+Oct 13 09:22:08 test-router kernel[3622]: eth3: TX timeout error
+Oct 13 09:22:12 test-router httpd[5653]: admin login success from 192.168.1.125 (user=admin)
+Oct 13 09:22:22 test-router kernel[4276]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.44 DST=198.51.100.110 PROTO=TCP SPT=21505 DPT=53
+Oct 13 09:22:25 test-router kernel[1498]: FW DROP IN=eth0 OUT= SRC=198.51.100.18 DST=203.0.113.10 PROTO=TCP SPT=7002 DPT=25 FLAGS=SYN
+Oct 13 09:22:26 test-router kernel[9215]: FW DROP IN=eth0 OUT= SRC=203.0.113.96 DST=203.0.113.10 PROTO=TCP SPT=54224 DPT=443 FLAGS=SYN
+Oct 13 09:22:26 test-router ntpd[2102]: synchronized to 198.51.100.144, stratum 2
+Oct 13 09:22:29 test-router httpd[942]: admin login failed from 198.51.100.223 (user=admin)
+Oct 13 09:22:50 test-router kernel[9568]: eth2: link up, 1000 Mbps full duplex
+Oct 13 09:22:54 test-router kernel[5836]: FW DROP IN=eth0 OUT= SRC=198.51.100.58 DST=203.0.113.10 PROTO=TCP SPT=56551 DPT=80 FLAGS=SYN
+Oct 13 09:23:05 test-router kernel[9290]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.91 DST=203.0.113.58 PROTO=TCP SPT=53926 DPT=443
+Oct 13 09:23:27 test-router bgpd[9221]: neighbor 192.0.2.9 (AS64502) state change Connect -> OpenSent
+Oct 13 09:23:28 test-router ntpd[4481]: synchronized to 198.51.100.213, stratum 3
+Oct 13 09:23:28 test-router kernel[2447]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.99 DST=198.51.100.90 PROTO=TCP SPT=1424 DPT=80
+Oct 13 09:23:33 test-router kernel[1603]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.56 DST=203.0.113.163 PROTO=TCP SPT=64712 DPT=80
+Oct 13 09:23:41 test-router kernel[6162]: FW DROP IN=eth0 OUT= SRC=198.51.100.117 DST=203.0.113.10 PROTO=TCP SPT=23364 DPT=443 FLAGS=SYN
+Oct 13 09:23:43 test-router kernel[2649]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.165 DST=203.0.113.22 PROTO=TCP SPT=58914 DPT=80
+Oct 13 09:23:44 test-router kernel[7359]: eth0: link down
+Oct 13 09:23:51 test-router dnsmasq-dhcp[3631]: DHCPACK(br0) 192.168.1.126 8e:4f:6e:ac:34:2f
+Oct 13 09:23:59 test-router kernel[9817]: FW DROP IN=eth0 OUT= SRC=198.51.100.29 DST=203.0.113.10 PROTO=TCP SPT=19586 DPT=3389 FLAGS=SYN
+Oct 13 09:24:03 test-router kernel[9919]: eth0: carrier error
+Oct 13 09:24:04 test-router kernel[4286]: FW DROP IN=eth0 OUT= SRC=192.0.2.197 DST=203.0.113.10 PROTO=TCP SPT=10017 DPT=25 FLAGS=SYN
+Oct 13 09:24:06 test-router kernel[2216]: FW DROP IN=eth0 OUT= SRC=198.51.100.192 DST=203.0.113.10 PROTO=TCP SPT=29247 DPT=443 FLAGS=SYN
+Oct 13 09:24:09 test-router kernel[1280]: eth1: FIFO overrun error
+Oct 13 09:24:12 test-router bgpd[407]: neighbor 198.51.100.8 (AS64501) state change OpenSent -> OpenConfirm
+Oct 13 09:24:15 test-router kernel[6726]: FW DROP IN=eth0 OUT= SRC=198.51.100.148 DST=203.0.113.10 PROTO=TCP SPT=29157 DPT=23 FLAGS=SYN
+Oct 13 09:24:23 test-router kernel[2915]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.49 DST=198.51.100.6 PROTO=TCP SPT=64344 DPT=443
+Oct 13 09:24:32 test-router kernel[7255]: eth2: link up, 1000 Mbps full duplex
+Oct 13 09:24:44 test-router kernel[5183]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.170 DST=198.51.100.135 PROTO=TCP SPT=6178 DPT=443
+Oct 13 09:24:52 test-router kernel[1968]: FW DROP IN=eth0 OUT= SRC=192.0.2.20 DST=203.0.113.10 PROTO=TCP SPT=34479 DPT=3389 FLAGS=SYN
+Oct 13 09:24:56 test-router kernel[2519]: FW DROP IN=eth0 OUT= SRC=198.51.100.90 DST=203.0.113.10 PROTO=TCP SPT=48693 DPT=25 FLAGS=SYN
+Oct 13 09:24:58 test-router kernel[1334]: FW DROP IN=eth0 OUT= SRC=192.0.2.45 DST=203.0.113.10 PROTO=TCP SPT=40502 DPT=443 FLAGS=SYN
+Oct 13 09:24:59 test-router bgpd[7701]: neighbor 198.51.100.8 (AS64501) state change OpenConfirm -> Established
+Oct 13 09:25:08 test-router bgpd[9348]: neighbor 198.51.100.8 (AS64501) state change Established -> Idle (Interface down)
+Oct 13 09:25:14 test-router pppd[5279]: WAN link established
+Oct 13 09:25:15 test-router kernel[4600]: FW DROP IN=eth0 OUT= SRC=198.51.100.162 DST=203.0.113.10 PROTO=TCP SPT=20869 DPT=25 FLAGS=SYN
+Oct 13 09:25:20 test-router kernel[1032]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.38 DST=198.51.100.119 PROTO=TCP SPT=30640 DPT=80
+Oct 13 09:25:23 test-router kernel[6399]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.185 DST=192.0.2.158 PROTO=TCP SPT=39957 DPT=53
+Oct 13 09:25:27 test-router dnsmasq-dhcp[5367]: DHCPDISCOVER(br0) 192.168.1.135 e5:8e:03:51:d8:ae
+Oct 13 09:25:32 test-router dnsmasq-dhcp[5726]: DHCPDISCOVER(br0) 192.168.1.135 34:2c:d8:10:0f:2f
+Oct 13 09:25:56 test-router kernel[7272]: FW DROP IN=eth0 OUT= SRC=203.0.113.45 DST=203.0.113.10 PROTO=TCP SPT=3589 DPT=443 FLAGS=SYN
+Oct 13 09:26:25 test-router dnsmasq-dhcp[4734]: DHCPOFFER(br0) 192.168.1.113 c2:31:b7:b0:87:16
+Oct 13 09:26:28 test-router bgpd[9895]: neighbor 192.0.2.9 (AS64502) state change OpenSent -> OpenConfirm
+Oct 13 09:26:28 test-router kernel[1648]: eth1: FIFO overrun error
+Oct 13 09:26:33 test-router kernel[2563]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.84 DST=203.0.113.219 PROTO=TCP SPT=44052 DPT=53
+Oct 13 09:26:35 test-router kernel[5182]: eth1: link down
+Oct 13 09:26:56 test-router kernel[1488]: eth1: TX timeout error
+Oct 13 09:26:58 test-router kernel[8724]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.104 DST=192.0.2.172 PROTO=TCP SPT=47084 DPT=53
+Oct 13 09:26:59 test-router kernel[6040]: eth1: CRC error
+Oct 13 09:27:01 test-router ntpd[3245]: synchronized to 198.51.100.88, stratum 2
+Oct 13 09:27:02 test-router kernel[1757]: FW DROP IN=eth0 OUT= SRC=192.0.2.76 DST=203.0.113.10 PROTO=TCP SPT=56364 DPT=25 FLAGS=SYN
+Oct 13 09:27:07 test-router dnsmasq-dhcp[2247]: DHCPDISCOVER(br0) 192.168.1.189 c2:31:b7:b0:87:16
+Oct 13 09:27:12 test-router kernel[2812]: FW DROP IN=eth0 OUT= SRC=192.0.2.213 DST=203.0.113.10 PROTO=TCP SPT=46430 DPT=25 FLAGS=SYN
+Oct 13 09:27:20 test-router kernel[7377]: FW DROP IN=eth0 OUT= SRC=198.51.100.174 DST=203.0.113.10 PROTO=TCP SPT=48182 DPT=443 FLAGS=SYN
+Oct 13 09:27:25 test-router bgpd[3933]: neighbor 198.51.100.8 (AS64501) state change Idle -> Connect
+Oct 13 09:27:30 test-router kernel[7318]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.140 DST=192.0.2.95 PROTO=TCP SPT=45477 DPT=53
+Oct 13 09:27:34 test-router kernel[3371]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.117 DST=203.0.113.136 PROTO=TCP SPT=28461 DPT=80
+Oct 13 09:27:43 test-router kernel[6181]: FW DROP IN=eth0 OUT= SRC=198.51.100.14 DST=203.0.113.10 PROTO=TCP SPT=43044 DPT=22 FLAGS=SYN
+Oct 13 09:27:48 test-router kernel[1474]: FW DROP IN=eth0 OUT= SRC=203.0.113.218 DST=203.0.113.10 PROTO=TCP SPT=9194 DPT=53 FLAGS=SYN
+Oct 13 09:27:57 test-router kernel[3737]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.151 DST=192.0.2.213 PROTO=TCP SPT=29694 DPT=80
+Oct 13 09:28:07 test-router httpd[6897]: admin login success from 192.168.1.26 (user=admin)
+Oct 13 09:28:07 test-router dnsmasq-dhcp[6242]: DHCPOFFER(br0) 192.168.1.118 34:2c:d8:10:0f:2f
+Oct 13 09:28:09 test-router kernel[2354]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.45 DST=203.0.113.167 PROTO=TCP SPT=22997 DPT=80
+Oct 13 09:28:09 test-router ntpd[2373]: synchronized to 198.51.100.121, stratum 3
+Oct 13 09:28:18 test-router kernel[4293]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.177 DST=192.0.2.232 PROTO=TCP SPT=6216 DPT=80
+Oct 13 09:28:19 test-router kernel[1921]: FW DROP IN=eth0 OUT= SRC=203.0.113.156 DST=203.0.113.10 PROTO=TCP SPT=35612 DPT=22 FLAGS=SYN
+Oct 13 09:28:28 test-router kernel[7589]: FW DROP IN=eth0 OUT= SRC=192.0.2.13 DST=203.0.113.10 PROTO=TCP SPT=16650 DPT=22 FLAGS=SYN
+Oct 13 09:28:28 test-router httpd[8882]: admin login failed from 198.51.100.153 (user=admin)
+Oct 13 09:28:29 test-router dnsmasq-dhcp[7132]: DHCPOFFER(br0) 192.168.1.56 8e:4f:6e:ac:34:2f
+Oct 13 09:28:29 test-router kernel[1502]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.166 DST=198.51.100.48 PROTO=TCP SPT=44564 DPT=53
+Oct 13 09:28:33 test-router kernel[9179]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.154 DST=203.0.113.130 PROTO=TCP SPT=52562 DPT=53
+Oct 13 09:28:33 test-router httpd[6438]: admin login failed from 192.0.2.163 (user=admin)
+Oct 13 09:28:57 test-router kernel[4050]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.24 DST=198.51.100.202 PROTO=TCP SPT=5451 DPT=443
+Oct 13 09:29:05 test-router kernel[2285]: eth3: FIFO overrun error
+Oct 13 09:29:05 test-router dnsmasq-dhcp[7940]: DHCPOFFER(br0) 192.168.1.195 62:23:17:74:94:28
+Oct 13 09:29:11 test-router bgpd[7598]: neighbor 198.51.100.7 (AS64500) state change Connect -> OpenSent
+Oct 13 09:29:11 test-router kernel[5180]: FW DROP IN=eth0 OUT= SRC=192.0.2.227 DST=203.0.113.10 PROTO=TCP SPT=3770 DPT=53 FLAGS=SYN
+Oct 13 09:29:16 test-router pppd[7856]: PPP session timeout, reconnecting
+Oct 13 09:29:17 test-router bgpd[4787]: neighbor 198.51.100.7 (AS64500) state change OpenSent -> OpenConfirm
+Oct 13 09:29:20 test-router bgpd[5538]: neighbor 192.0.2.9 (AS64502) state change OpenConfirm -> Established
+Oct 13 09:29:22 test-router bgpd[6653]: neighbor 198.51.100.8 (AS64501) state change Connect -> OpenSent
+Oct 13 09:29:30 test-router httpd[5654]: admin login success from 192.168.1.118 (user=admin)
+Oct 13 09:29:52 test-router dnsmasq-dhcp[1453]: DHCPACK(br0) 192.168.1.114 8e:4f:6e:ac:34:2f
+Oct 13 09:30:00 test-router kernel[4913]: FW DROP IN=eth0 OUT= SRC=203.0.113.211 DST=203.0.113.10 PROTO=TCP SPT=12850 DPT=23 FLAGS=SYN
+Oct 13 09:30:02 test-router kernel[9973]: FW DROP IN=eth0 OUT= SRC=203.0.113.76 DST=203.0.113.10 PROTO=TCP SPT=21110 DPT=22 FLAGS=SYN
+Oct 13 09:30:10 test-router kernel[5876]: FW DROP IN=eth0 OUT= SRC=198.51.100.90 DST=203.0.113.10 PROTO=TCP SPT=30327 DPT=80 FLAGS=SYN
+Oct 13 09:30:15 test-router kernel[6755]: FW ACCEPT IN=br0 OUT=eth0 SRC=192.168.1.183 DST=192.0.2.20 PROTO=TCP SPT=45010 DPT=53
+Oct 13 09:30:18 test-router bgpd[610]: neighbor 192.0.2.9 (AS64502) state change Established -> Idle (Hold Timer Expired)
+Oct 13 09:30:19 test-router kernel[2168]: eth3: link up, 1000 Mbps full duplex
+Oct 13 09:30:20 test-router bgpd[6033]: neighbor 198.51.100.8 (AS64501) state change OpenSent -> OpenConfirm
